@@ -17,7 +17,8 @@
     background-color: ghostwhite; 
     border-top:3px solid orangered;
     height: 50px;
-    position:relative;
+    position:sticky;
+    overflow:hidden;
     
 }
 .header_left{
@@ -60,6 +61,7 @@ nav ul li{
 .header_right{
     display: flex;
     padding-right: 20px;
+    margin-left: 0px;
 }
 .header_right span{
     padding: 10px;
@@ -75,14 +77,27 @@ nav ul li{
     cursor: pointer;
     color: #773838;
 }
+.log{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+
 /* sidebar*/
 .sidebar{
     flex:0.3;
-    max-width:200px;
-    padding-right: 20px;
-    position: sticky;
+    width:400px;
+    padding-left: 2px;
+    padding-right:10px;
     overflow: scroll;
     height:700px;
+    position: sticky;
     margin-left: 30px;
 }
 .sidebarOption{
@@ -124,9 +139,10 @@ nav ul li{
     background-color: ghostwhite;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 12px;
+    width:50px;
 }
 .card{
-    width:300px;
+    width:180px;
     height:300PX;
     background-color: white;
     border: 1px solid darkgrey;
@@ -166,4 +182,79 @@ object-fit: contain;
     font-family:Arial, Helvetica, sans-serif;
     font-size:15px;
     color:black;
+}
+/*body*/
+.main_body{
+    display: flex;
+    height: 100vh;
+}
+body{
+    height: 100vh;
+}
+.bodytopleft{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width:600px;
+    height:150PX;
+    background-color: white;
+    border:snow;
+    position: relative;
+    margin-top:0px;
+    margin-left:0px;
+    text-align: center;
+    float: left;
+}
+.content{
+    margin-left:1px;
+    margin-top: 10px;
+}
+.name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:28px;
+    display: flex;
+    flex:0.2;
+}
+.bodytopleft img{
+    position: sticky;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    border-top: 1px solid whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.option h5:hover{
+    background-color:aliceblue;
+    border-width:2px;
+    color:#818181;
+
+}
+.profile_button{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    padding: 10px;
+    border-radius:20px;
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+}
+
+.profile_button2{
+    margin-top:15px;
+    margin-left:90px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color:black;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:ghostwhite;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
 }
