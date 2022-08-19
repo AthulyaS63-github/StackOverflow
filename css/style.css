@@ -96,7 +96,6 @@ nav ul li{
     padding-left: 2px;
     padding-right:10px;
     overflow: scroll;
-    height:700px;
     position: sticky;
     margin-left: 30px;
 }
@@ -186,17 +185,16 @@ object-fit: contain;
 /*body*/
 .main_body{
     display: flex;
-    height: 100vh;
+    height:80vh;
+    
 }
 body{
-    height: 100vh;
+    height:100vh;
 }
-.bodytopleft{
+.body1{
     position: sticky;
     top: 0;
     display: flex;
-    width:600px;
-    height:150PX;
     background-color: white;
     border:snow;
     position: relative;
@@ -204,10 +202,13 @@ body{
     margin-left:0px;
     text-align: center;
     float: left;
+    width:500;
+    height: 200;
 }
 .content{
-    margin-left:1px;
+    margin-left:10px;
     margin-top: 10px;
+    float: left;
 }
 .name{
     font-family:Arial, Helvetica, sans-serif;
@@ -215,7 +216,7 @@ body{
     display: flex;
     flex:0.2;
 }
-.bodytopleft img{
+.body1 img{
     position: sticky;
     display: flex;
     box-shadow: 1px 1px 1px 1px whitesmoke;
@@ -232,8 +233,8 @@ body{
 
 }
 .profile_button{
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top:30px;
+    margin-left:0px;
     color: white;
     padding: 10px;
     border-radius:20px;
@@ -244,7 +245,7 @@ body{
 
 .profile_button2{
     margin-top:15px;
-    margin-left:90px;
+    margin-left:0px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color:black;
@@ -257,4 +258,63 @@ body{
     outline: none;
     border: none;
     box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+.stack_right button{
+    font-size:20px;
+    height: 50px;
+    padding-left:5px;
+    align-items: center;
+    width: 110px;
+    margin-top: 40px;
+    margin-left:600px;
+    display: flex;
+    flex: 0.0px;
+    color: #818181;
+    background-color: white;
+    cursor: pointer;
+    float: left;
+}
+.stack_right span{
+    margin-left: 10px;
+}
+.stack_right span{
+    margin-left: 10px;
+}
+.stack_right button:hover{
+    background-color: #81818122;
+}
+.statbrdr{
+    width:250px;
+    height: 200px;
+    background-color: white;
+    border:1px solid darkgray;
+    margin: 20px;
+    box-sizing: border-box;
+    border-bottom-width:1px;
+}
+.numbers{
+    display:flex;
+    align-items:center;
+    height: 40px;
+    padding: 0 5px;
+    padding-left: 10px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.statetext{
+    display:flex;
+    align-items:center;
+    height: 40px;
+    padding: 5px 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    margin-left:10px;
+    margin-top:-20px;
+}
+.space{
+    padding-right:40px;
 }
