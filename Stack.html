@@ -11,6 +11,7 @@
 </head>
 <body>
 <!--Header starts-->
+<div>
     <div class="header"  >
         <div class="header_left">
              <img src="Assets/stack.jpg" alt="logo"  style="margin-left:30px;"> 
@@ -39,93 +40,174 @@
 
 <!--Main body starts-->
 <div class="main_body">
-    <!--sidebar starts-->
-    <div class="sidebar">
-        <div class="sidebarOption">
-            <h3>Home</h3>
-        </div>
-        <div class="sidebarOption">
-            <h3>Public</h3>
-        </div>
-        <div class="sidebarOption">
-            <span class="material-symbols-outlined">Public</span>
-            <h3>Questions</h3>
-        </div>
-        <div style="margin-left:30px;">
-            <div class="sidebarOption">
-                <h3>Tags</h3>
-            </div>
-            <div class="sidebarOption2">
-                <h3><b>users</b></h3>
-            </div>
-            <div class="sidebarOption">
-                <h3>Companies</h3>
-            </div>
-        </div>
-        <div class="sidebarOption">
-            <h6>COLLECTIVES</h6>
-            <span class="material-symbols-outlined" style="margin-left:50px;color:black;">info</span>
-        </div>
-        <div class="sidebarOption">
-            <span class="material-symbols-outlined" style="color:orangered;">stars</span>
-            <h3 style="font-family:Arial, Helvetica, sans-serif ;">Explore collectives</h3>
-        </div>
-        <div class="sidebarOption">
-            <h6>TEAMS</h6>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <p><b>Stack Overflow for Teams</b> – Start collaborating and sharing organizational knowledge.</p>
-                    <img src="Assets/pic.jpg" alt="pic">
-                    <div class="sidebarOption3">
-                        <h3>create a free team</h3>
-                    </div>
-                    <div class="sidebarOption4">
-                        <h6>why teams?</h6>
-                    </div>
-            </div>
-        </div>
-    </div>
-<!--sidebar ends-->
-    <div class="body1" width="300px">
-        <div class="pic">
-            <img src="Assets/jons.jpg" alt="pic" width="120" height="120" >
-            
-        </div>
-        <div class="content">
-            <div style="margin-left:1px;float:left;margin-bottom:0px;">
-                <p class="name">Jon Skeet</p>
-            </div>
-            <div style="margin-left:1px;float:left;margin-bottom:0px;">
-                <p><span class="material-symbols-outlined">cake</span> Member for 13 years,11 months<span class="material-symbols-outlined">schedule</span>last seen this weeks</p>
-            </div>
-            <div style="cursor: pointer;">
-                <img src="assets/twitter.jpg" alt="logo" width="25px" height="25px" style="margin-left:1px;position: relative;float: left;" >
-                <img src="assets/hub.jpg" alt="logo" width="25px" height="25px" style="margin-left:1px;float:left" >
-                <img src="assets/chain.jpg" alt="logo" width="25px" height="25px" style="margin-left:1px;float:left" >
-                <p style="margin-left:1px;float:left;margin-bottom:0px;">csharpindepth.com <span class="material-symbols-outlined">pin_drop</span>Reading,united Kingdom </p>
-            </div>
-        </div>
-        <div>
-            <button class="profile_button">profile</button>
-        </div>
-    </div>
-        <div class="stack_right">
-            <button type="button">profile<span class="material-symbols-outlined">arrow_drop_down</span></button>
-        </div>
     
-    <div class="states">
-        <h3 class="status">States</h3>
-    </div>
-    <div class="statuser" style="float:left">
-        <div class="statbrdr">
-            <span class="numbers">1,350,175<span class="space"></span>366.2m</span>
-            <span class="stattext">reputation<span class="space"></span>reached</span>
-            <span class="numbers">35,481<span class="space"></span>51</span>
-            <span class="stattext">top<b>0.01%</b>overall</span>
+
+        <div class="sidebar">
+			<div class="sidebarOption">
+				<span class="home">Home</span></div>
+			<div class="sidebarOption">
+				<span class="public">PUBLIC</span></div>
+			<div class="sidebarOption">
+				<span class="material-symbols-outlined">public</span>			
+				<span class="questions"> Questions</span></div>
+			<div class="sidebarOption">
+				<span class="tags">Tags</span></div>
+			<div class="sidebarOption sidebarOption__active">
+				<span class="users">Users</span></div>
+			<div class="sidebarOption">
+				<span class="companies">Companies</span></div>
+			<div class="sidebarOption">			
+				<span class="collectives">Collectives</span>
+				<span class="material-symbols-outlined">info</span></div>
+			<div class="sidebarOption">
+				<span class="material-symbols-outlined" style="color: orange;">stars</span>
+				<span class="expcollective">Explore Collectives</span></div>
+			<div class="sidebarOption">
+				<span class="teams">Teams</span>
+				<span class="material-symbols-outlined">info</span></div>
+			<div class="sidebarOption">
+				<span class="material-symbols-outlined">work</span>
+				<span class="freeteam">Create free Team</span>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p><b>Stack Overflow for Teams</b> – Start collaborating and sharing organizational knowledge.</p>
+                        <img src="Assets/pic.jpg" alt="pic">
+                        <div class="sidebarOption3">
+                            <h3>create a free team</h3>
+                        </div>
+                        <div class="sidebarOption4">
+                            <h6>why teams?</h6>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="listhead">
+        <div class="listsetting">
+            <div class="listsettingleft">
+                <img src="assets/jons.jpg" alt="Logo" style="width:140px; height:140px;"  >   
+             </div>
+            <div class="box">
+                 <h3 class="name">Jon Skeet </h3>
+                <div class="namebodyopt" >
+                    <span class="material-symbols-outlined">cake</span>
+                    <h3 class="cakedes">Member for 13 years</h3>
+                    <span class="material-symbols-outlined">schedule</span>
+                    <h3 class="cakedes">Last seen this week</h3>
+                </div>
+                <div class="locbodyopt" >
+                    <img src="assets/twitter.jpg" alt="Logo" style="width:20px; height: 20px; margin-top: 10px; margin-left: 5px;"  >
+                    <img src="assets/hub.jpg" alt="Logo" style="width:16px; height: 16px; margin-top: 10px; margin-left: 5px; "  > 
+                    <img src="assets/chain.jpg" alt="Logo" style="width:16px; height: 16px; margin-top: 10px; margin-left: 4px; "  >
+                    <h3 class="cakedes">csharpindepth.com</h3>   
+                    <span class="material-symbols-outlined">location_on</span>
+                    <h3 class="cakedes">Reading,United Kingdom</h3>
+                </div>
+
+            </div>
+            <div class="listsettingright">
+                
+                
+            
+            </div>
+        </div>
+        <div class="listsection" >
+            <div class="section section__selected">
+                <button class="profile">
+                    Profile
+                 </button>
+            </div>
+            <div class="section">
+                <button class="about">
+                    Activity
+                </button>
+            </div>
+        </div>
+        <h2 style="margin-top:20px">Stats<span class="abspace"></span>About</h2>
+        <div class="statuser">
+            <div class="stats">
+                <span class="numbers">1,350,175<span class="space"></span>366.2m</span>
+                <span class="stattext">reputation<span class="space"></span>reached</span>
+                <span class="numbers">35,481<span class="space"></span>51</span>
+                <span class="stattext">answers<span class="space"></span>questions</span>			
+                <span class="material-symbols-outlined" style="margin-left:15px; margin-bottom:10px;">military_tech</span>
+                <span class="stattext">top <b>0.01%</b> overall</span>
+            </div>
+            <div class="aboutuser">
+                <p class="info">Author of <a href="https://www.manning.com/books/c-sharp-in-depth-fourth-edition?a_aid=jonskeet&a_bid=66d590c3">C# in depth</a>.</p>
+                <p class="info">Currently a software engineer at Google, London.</p>
+                <p class="info">Usually a Microsoft MVP (C#, 2003-2010, 2011-)</p>
+                <p class="info"></p>
+                <p class="info">Sites:</p>
+                <p class="info"></p>
+                <ul>
+                    <li class="info"><a href="https://www.manning.com/books/c-sharp-in-depth-fourth-edition?a_aid=jonskeet&a_bid=66d590c3">C# in depth</a></li>
+                    <li class="info"><a href="https://codeblog.jonskeet.uk/">Coding blog</a></li>
+                    <li class="info"><a href="http://jonskeet.uk/csharp">C# articles</a></li>
+                    <li class="info"><a href="http://twitter.com/jonskeet">Twitter updates(@jonskeet)</a></li>
+                </ul>
+                <p class="info">Email: skeet@pobox.com (but please read <a href="https://codeblog.jonskeet.uk/2012/08/22/stack-overflow-and-personal-emails/">my blogpost on Stack Overflow-related emails</a> first)</p>
+            </div>
+        </div>
+        <h2 style="margin-top:20px">Communities<span class="commspace"></span>Badge</h2>
+        <div class="commbadge">
+            <div class="community">
+                <img
+                    src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196"
+                    alt="stackicon"
+                    style="height:24px;"/>
+                <span class="commopt">Stack Overflow</span>
+                <img src="assets/msg.jpg" alt="metaicon" style="height:24px;"/>
+                <span class="commopt">Meta Stack Exchange</span>
+            </div>
+            <div class="badges">
+                <div class="gold">
+                    <img
+                        src="assets/gbadge.png"
+                        alt="gbadge"
+                        style="width: 50px; height:50px; padding-left:10px;"/>
+                    <h3 style="padding-top:10px;"><span class="badgespace"></span>830</h3>
+                    <span class="badgedet"> gold badges</span>
+                </div>
+                <div class="silver">
+                    <img
+                        src="assets/sbadge.png"
+                        alt="gbadge"
+                        style="width: 50px; height:50px; padding-left:10px;"/>
+                    <h3 style="padding-top:10px;"><span class="badgespace"></span>8965</h3>
+                    <span class="badgedet"> silver badges</span>
+                    <span class="silveritem"></span>
+                </div>
+                <div class="bronze">
+                    <img
+                        src="assets/bbadge.png"
+                        alt="gbadge"
+                        style="width: 50px; height:50px; padding-left:10px;"/>
+                    <h3 style="padding-top:10px;"><span class="badgespace"></span>9077</h3>
+                    <span class="badgedet"> bronze badges</span>
+                    <span class="bronzeitem"></span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<!--main body ends-->
+<!--footer starts-->
+</div>
+<div class="footer">
+    <table class="table" >
+        <th><img
+            src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196"
+            alt="stackicon"
+            style="height:30px;"/>
+        </th>
+        <th class="col">
+            STACK OVERFLOW
+        
+        
+    </table>
+</div>
+
 </body>
 </html>
