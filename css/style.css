@@ -29,6 +29,10 @@
     padding: 10px;
     cursor: pointer;
 }
+.header_left img{
+	margin-left:30px;
+
+}
 .header_middle{
     display: flex;
     flex: 0.7;
@@ -49,6 +53,9 @@ nav ul li{
 }        
 .material-symbols-outlined{
     color: gray;
+}
+.material-symbols-outlined2{
+    color: orange;
 }
 .header_middle input{
     border: none;
@@ -77,6 +84,7 @@ nav ul li{
     cursor: pointer;
     color: #773838;
 }
+
 .log{
     display: flex;
     align-items: center;
@@ -86,6 +94,8 @@ nav ul li{
     box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
     text-transform: capitalize;
     padding: 10px;
+    background-color:blue;
+    color:white;
 }
 
 
@@ -113,13 +123,31 @@ nav ul li{
     cursor: pointer;
     color: #818181;
   }
+
+.sidebarOption2{
+    display: flex;
+    align-items:center;
+    height: 25px;
+    padding: 0 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    cursor: pointer;
+    color: #818181;
+  }
   
   .sidebarOption .material-symbols-outlined {
     padding: 5px;
     padding-left:0;
     font-size: 20px;
   }
-  
+
+  .sidebarOption2 .material-symbols-outlined {
+    padding: 5px;
+    padding-left:0;
+    font-size: 20px;
+    color:orange;
+
+  }
   
   .sidebarOption:hover .material-icons,
   .sidebarOption__active,
@@ -257,6 +285,11 @@ body{
 .listsettingleft{
     box-shadow: 1px 0px 5px -1px rgb(220, 225, 228);
 }
+.listsettingleft img{
+	width:140px; 
+	height:140px;
+
+}
 
 .box{
     width: 400px;
@@ -307,7 +340,37 @@ body{
     margin-left: -10px;
     margin-top: -15px;
 }
+.twitter{
+	width:20px;
+	 height: 20px;
+	 margin-top: 10px; 
+	 margin-left: 5px;
 
+}
+.hub{
+	width:16px; 
+	height: 16px; 
+	margin-top: 10px; 
+	margin-left: 5px; 
+
+}
+.chain{
+	width:16px; 
+	height: 16px;
+	 margin-top: 10px;
+	 margin-left: 4px;
+
+}
+.stats{
+	margin-top:20px;
+
+}
+.communities{
+	margin-top:20px;
+}
+.meta{
+	height:24px;
+}
 .section{
     display: flex;
     cursor: pointer;
@@ -401,6 +464,12 @@ body{
   margin-bottom:40px;
 
 }
+.states .material-symbols-outlined{
+	margin-left:15px; 
+	margin-bottom:10px;
+	
+
+}
 
 .h2{
   padding-top:12px;
@@ -454,7 +523,9 @@ body{
     background-color: #81818122;
 }
 
-
+.commopt{
+  color:blue;
+}
 
 .statuser{
   display:flex;
@@ -486,6 +557,15 @@ a:visited{
   padding-top:10px;
 }
 
+.heading{
+	margin-top:20px;
+
+}
+.community img{
+
+height:24px;
+}
+
 
 .badges{
   display:flex;
@@ -502,7 +582,20 @@ a:visited{
   border-radius:5px;
 	
 }
+.gold img{
+	width: 50px;
+	 height:50px;
+	 padding-left:10px;
+}
+.gold h3{
+	padding-top:10px;
+}
+.silver img{
+	width: 50px;
+        height:50px; 
+	padding-left:10px;
 
+}
 
 
 .silver{
@@ -514,6 +607,9 @@ a:visited{
   border-radius:5px;
 	
 }
+.silver h3{
+	padding-top:10px;
+}
 
 .bronze{
    display:flex;
@@ -524,6 +620,15 @@ a:visited{
   border-radius:5px;
 	
 }
+.bronze img{
+	width: 50px;
+	 height:50px;
+	 padding-left:10px;
+}
+.bronze h3{
+	padding-top:10px;
+}
+
 
 
 .commbadge{
@@ -559,6 +664,9 @@ a:visited{
 }
 .table{
     margin-left: 20px;
+}
+.table img{
+height:30px;
 }
 .col{
     color:darkgray;
