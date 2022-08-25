@@ -1,10 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google font icons-->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Stackoverflow</title>
@@ -13,42 +9,40 @@
     <!--Header starts-->
     <div>
       <div class="header">
-        <div class="header_left">
+        <div class="headerLeft">
           <img src="Assets/stack.jpg" alt="logo">
         </div>
         <nav class="option ">
           <ul>
             <li>
-              <h5>About</h5>
+              <h5 class="headList">About</h5>
             </li>
             <li>
-              <h5>product</h5>
+              <h5 class="headList">product</h5>
             </li>
             <li>
-              <h5>for teams</h5>
+              <h5 class="headList">for teams</h5>
             </li>
           </ul>
         </nav>
-        <div class="header_middle">
+        <div class="headerMiddle">
           <span class="material-symbols-outlined">search</span>
           <input type="text" placeholder="user:22656" />
         </div>
-        <div class="header_right">
-          <nav>
-            <ul>
-              <li>
-                <button type="button" class="log1">login</button>
-              </li>
-              <li>
-                <button type="button" class="log2">sign up</button>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <div class="headerRight">
+          <samp class="log">
+          <button>Login</button>
+        </samp>
+        <samp class="sign">
+          <button>
+            <strong> Sign Up</strong>
+          </button>
+        </samp>
+       </div>
       </div>
       <!--Header ends-->
       <!--Main body starts-->
-      <div class="main_body">
+      <div class="mainBody">
         <div class="sidebar">
           <div class="sidebarOption">
             <span class="home">Home</span>
@@ -86,7 +80,7 @@
             <span class="freeteam">Create free Team</span>
           </div>
           <div class="card">
-            <div class="card-body">
+            <div class="cardBody">
               <p>
                 <b>Stack Overflow for Teams</b> – Start collaborating and sharing organizational knowledge.
               </p>
@@ -101,20 +95,20 @@
           </div>
         </div>
         <!--body starts-->
-        <div class="listhead">
-          <div class="listsetting">
-            <div class="listsettingleft">
+        <div class="listHead">
+          <div class="listSetting">
+            <div class="listsettingLeft">
               <img src="assets/jons.jpg" alt="Logo">
             </div>
             <div class="box">
               <h3 class="name">Jon Skeet </h3>
-              <div class="namebodyopt">
+              <div class="nameBodyopt">
                 <span class="material-symbols-outlined">cake</span>
                 <h3 class="cakedes">Member for 13 years</h3>
                 <span class="material-symbols-outlined">schedule</span>
                 <h3 class="cakedes">Last seen this week</h3>
               </div>
-              <div class="locbodyopt">
+              <div class="locBodyopt">
                 <img src="assets/twitter.jpg" alt="Logo" class="twitter">
                 <img src="assets/hub.jpg" alt="Logo" class="hub">
                 <img src="assets/chain.jpg" alt="Logo" class="chain">
@@ -124,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="listsection">
+          <div class="listSection">
             <div class="section section__selected">
               <button class="profile"> Profile </button>
             </div>
@@ -133,16 +127,16 @@
             </div>
           </div>
           <h2 style="margin-top:20px">Stats <span class="abspace"></span>About </h2>
-          <div class="statuser">
+          <div class="statUser">
             <div class="stats">
               <span class="numbers">1,350,175 <span class="space"></span>366.2m </span>
-              <span class="stattext">reputation <span class="space"></span>reached </span>
+              <span class="statText">reputation <span class="space"></span>reached </span>
               <span class="numbers">35,481 <span class="space"></span>51 </span>
-              <span class="stattext">answers <span class="space"></span>questions </span>
+              <span class="statText">answers <span class="space"></span>questions </span>
               <span class="material-symbols-outlined">military_tech</span>
-              <span class="stattext">top <b>0.01%</b> overall </span>
+              <span class="statText">top <b>0.01%</b> overall </span>
             </div>
-            <div class="aboutuser">
+            <div class="aboutUser">
               <p class="info">Author of <a href="https://www.manning.com/books/c-sharp-in-depth-fourth-edition?a_aid=jonskeet&a_bid=66d590c3">C# in depth</a>. </p>
               <p class="info">Currently a software engineer at Google, London.</p>
               <p class="info">Usually a Microsoft MVP (C#, 2003-2010, 2011-)</p>
@@ -175,7 +169,7 @@
             <span class="collective2"> 2021 <b>.Employee</b>
             </span>
           </div>
-          <h2 class="heading">Communities <span class="commspace"></span>Badge </h2>
+          <h2 class="heading">Communities <span class="commspace"></span>Badges</h2>
           <div class="commbadge">
             <div class="community">
               <img src="assets/overflow.jpg" alt="stackicon" />
@@ -195,12 +189,27 @@
             </div>
             <div class="badges">
               <div class="gold">
-                <img src="assets/gbadge.png" alt="goldbadge" />
-                <h3>
-                  <span class="badgespace"></span>830
-                </h3>
-              <span class="badgedet"> gold badges</span>
-              <span class="golditem"></span>
+		<div class="imgGold">
+                  <img src="assets/gbadge.png" alt="goldbadge" />
+		    <div class="goldBadges">
+                      <div class="badgeSpace">
+		        <h3>830</h3>
+		      </div>
+                      <div class="badgedet"> 
+			<p>gold badges<p>
+		      </div>
+		   </div>
+		</div>
+                <span class="golditem"></span>
+		<div class="Gbutton1">
+                 <button>casting</button>
+		</div>
+		<div class="Gbutton1">
+                 <button>interface</button>
+		</div>
+	        <div class="Gbutton1">
+                 <button>.net-4.0</button>
+		</div>
 	      </div>
             </div>
               <div class="silver">
@@ -228,7 +237,7 @@
         <table class="table">
           <tr>
             <th>
-              <img src="assets/overflow.jpg" alt="stackicon" alt="stackicon">
+              <img src="assets/overflow.jpg" alt="stackicon">
             </th>
             <th></th>
             <th>STACK OVERFLOW</th>
