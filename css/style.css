@@ -1,6 +1,8 @@
+
 * {
 	margin: 0;
-	padding: 0;
+	padding:0;
+	
 }
 /* Header */
 .headerLeft img {
@@ -17,8 +19,8 @@
 	border-bottom: 1px solid whitesmoke;
 	background-color: ghostwhite;
 	border-top: 3px solid orangered;
-	height: 50px;
 	overflow: hidden;
+	padding:5px;
 }
 
 .headerLeft {
@@ -113,7 +115,6 @@ nav ul li :hover{
     border-radius:5px ;
     display:flex;
     border-width:1px;
-    align items:center;
   
 }
 .log button:hover{
@@ -131,7 +132,6 @@ nav ul li :hover{
     border-radius:5px ;
     border-color:#99CCFF;
     display:flex;
-    align items:center
     border-width:1px;
 }
 .sign button:hover{
@@ -148,7 +148,7 @@ nav ul li :hover{
 .sidebarOption {
 	display: flex;
 	align-items: center;
-	padding: 1 10px;
+	padding: 0 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	cursor: pointer;
@@ -312,7 +312,7 @@ body{
 .box {
 	width:400px;
 	padding-right: 100px;
-	margin-right:1000px;
+	margin-right:800px;
 	margin-left:0px;
 }
 
@@ -525,6 +525,11 @@ body{
 .commopt {
 	color: #0063bf;
 	font-weight: 10;
+	cursor: pointer;
+}
+.commopt:hover{
+	color:#4db8ff;
+
 }
 
 .statUser {
@@ -558,12 +563,18 @@ body{
 
 .heading {
 	margin-top: 20px;
+	font-weight:10px;
+	font-size:30px;
 }
 
 .community img {
 	height: 24px;
+	cursor: pointer;
+	
 }
-
+.googleImage{
+	display:flex;
+}
 .badges {
 	display: flex;
 }
@@ -583,10 +594,12 @@ body{
 .collect {
 	margin-bottom:2px;
 	font-size:25px;
+ 	
 }
 
 .collective img {
 	width: 50px;
+	cursor: pointer;
 }
 
 .collective1 {
@@ -607,10 +620,10 @@ body{
 	padding-top: 10px;
 }
 .gold{
-    width: 250px;
+    width:300px;
     padding-right: 10px;
-    padding-bottom: 40px;
-    margin-right:50px;
+    padding-bottom:20px;
+    margin-right:20px;
     border: 1px solid rgba(128,128,128,0.2);
     border-radius:5px;	
 }
@@ -630,48 +643,15 @@ body{
    border-radius:5px;
    cursor: pointer;
 }
-.gold .badgedet{
-   margin-left:70px;
 
+.Gbutton1 button:hover{
+     color:black;
+     background-color:#CFD8DC;
 }
-.silver img {
-	width: 50px;
-	height: 50px;
-	padding-left: 10px;
+.history{
+	margin-right:0px;
+        font-size:12px;
 }
-
-.silver {
-	display: flex;
-	width: 200px;
-	padding-right: 10px;
-	margin-right: 20px;
-	border: 1px solid rgba(128,128,128,0.2);
-	border-radius: 5px;
-}
-
-.silver h3 {
-	padding-top: 10px;
-}
-
-.bronze {
-	display: flex;
-	width: 200px;
-	padding-right: 10px;
-	margin-right: 20px;
-	border: 1px solid rgba(128,128,128,0.2);
-	border-radius: 5px;
-}
-
-.bronze img {
-	width: 50px;
-	height: 50px;
-	padding-left: 10px;
-}
-
-.bronze h3 {
-	padding-top: 10px;
-}
-
 .commbadge {
 	display: flex;
 }
@@ -710,3 +690,8 @@ body{
 .table img {
 	height: 30px;
 }
+ 
+
+
+ 
+
