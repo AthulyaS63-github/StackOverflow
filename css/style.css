@@ -1,7 +1,7 @@
 
 * {
 	margin: 0;
-	padding:0;
+	/*padding:0;*/
 	
 }
 /* Header */
@@ -10,6 +10,9 @@
 	height: 28px;
 	margin-left: 5px;
 	width: 150px;
+}
+.icons{
+	width:20px;
 }
 
 .header {
@@ -140,10 +143,11 @@ nav ul li :hover{
 
 /* sidebar*/
 .sidebar {
-	flex: 0.3;
-	max-width: 200px;
+	width:auto;
 	padding-left: 20px;
 	font-size: 12px;
+	overflow-y:scroll;
+	margin-bottom: var(--su8);
 }
 .sidebarOption {
 	display: flex;
@@ -214,6 +218,9 @@ nav ul li :hover{
 .companies {
 	padding-left: 25px;
 }
+.bodyContent{
+	display: flex;
+}
 
 .collectives {
 	padding-right: 58px;
@@ -277,11 +284,26 @@ nav ul li :hover{
 }
 /*body*/
 .mainBody {
-	display: flex;
-	overflow: auto;
+	display:flex;
+	padding-left:5px;
+}
+#topContent{
+	/*padding: 20px;*/
+	max-width: 1100px;
+    width: calc(100% - 164px);
+    background-color: var(--theme-content-background-color);
+    border-radius: 0;
+    border: 1pxsolidvar(--theme-content-border-color);
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 1px;
+    border-right-width: 0;
+    padding: var(--su24);
+    box-sizing: border-box;
+
 }
 .listHead {
-	flex: 1;
+	/*flex: 1;*/
 	padding-left: 15px;
 }
 body{
@@ -292,7 +314,6 @@ body{
 .listSetting {
 	top: 0;
 	display: flex;
-	justify-content: space-between;
 	border-bottom: 1px whitesmoke;
 	background-color: white;
 	z-index: 999;
@@ -312,14 +333,13 @@ body{
 .box {
 	width:400px;
 	padding-right: 100px;
-	margin-right:800px;
 	margin-left:0px;
 }
 
 .name {
 	margin-top: 15px;
 	padding-right: 100px;
-	font-weight: 540;
+	font-weight:50px;
 	font-size: xx-large;
 }
 
@@ -377,10 +397,6 @@ body{
 	margin-left: 4px;
 }
 
-.stats {
-	margin-top: 20px;
-}
-
 .communities {
 	margin-top: 20px;
 }
@@ -432,26 +448,23 @@ body{
 	border: none;
 	box-shadow: 0px 2px 2px 2px;
 }
-
+.sideContent{
+	width:300px;
+}
 .about {
-	margin-left: 10px;
+	
 	text-transform: capitalize;
-	color: gray;
 	padding: 7px;
-	border-radius: 30px;
-	background-color: white;
-	display: flex;
 	align-items: center;
-	cursor: pointer;
-	outline: none;
+	outline:none;
 	border: none;
+	background-color: white;
 }
 
 .about h3 {
 	font-size: small;
 	font-weight: 400;
 }
-
 .about:hover {
 	margin-left: 10px;
 	text-transform: capitalize;
@@ -468,19 +481,26 @@ body{
 	box-shadow: 0px 2px 2px -2px;
 }
 
+
+
+.statUser{
+	padding-left:5px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
 .stats {
-	width: 150px;
-	padding-right: 100px;
+	width:250px;
 	margin-right: 480px;
 	border: 1px solid rgba(128,128,128,0.2);
 	border-radius: 5px;
-	margin-bottom: 40px;
+	margin-bottom:10px;
+	margin-top: 20px;
+}
+.collectOut{
+	margin-top: 1px;
 }
 
-.states .material-symbols-outlined {
-	margin-left: 15px;
-	margin-bottom: 10px;
-}
 
 .h2 {
 	padding-top: 12px;
@@ -532,10 +552,6 @@ body{
 
 }
 
-.statUser {
-	display: flex;
-}
-
 .abspace {
 	padding-right: 250px;
 }
@@ -549,9 +565,6 @@ body{
 	color: #0063bf;
 }
 
-.aboutUser {
-	margin-left: -430px;
-}
 
 .info {
 	padding-top: 10px;
@@ -564,7 +577,7 @@ body{
 .heading {
 	margin-top: 20px;
 	font-weight:10px;
-	font-size:30px;
+	font-size:22px;
 }
 
 .community img {
@@ -619,8 +632,12 @@ body{
 .gold h3 {
 	padding-top: 10px;
 }
+.sideBadge{
+	margin: 12px;
+	padding: 12px;
+}
 .gold{
-    width:300px;
+    width:250px;
     padding-right: 10px;
     padding-bottom:20px;
     margin-right:20px;

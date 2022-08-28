@@ -1,17 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"/>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />-->
     <link rel="stylesheet" href="css/style.css" />
     <title>Stackoverflow</title>
   </head>
-
   <body>
     <!--Header starts-->
     <div class="header">
-      <div class="headerLeft"><img src="Assets/stack.jpg" alt="logo" /></div>
+      <div class="headerLeft">
+        <img src="Assets/stack.jpg" alt="logo" />
+      </div>
       <nav class="option">
         <ul>
           <li>
@@ -26,7 +25,8 @@
         </ul>
       </nav>
       <div class="headerMiddle">
-        <span class="material-symbols-outlined">search</span>
+        <!--<span class="material-symbols-outlined">search</span>-->
+        <img src="assets/search.jpg.png" alt="search" class="icons">
         <input type="text" placeholder="user:22656" />
       </div>
       <div class="headerRight">
@@ -44,13 +44,20 @@
     <!--Main body starts-->
     <div class="mainBody">
       <div class="sidebar">
-        <div class="sidebarOption"><span class="home">Home</span></div>
-        <div class="sidebarOption"><span class="public">PUBLIC</span></div>
         <div class="sidebarOption">
-          <span class="material-symbols-outlined">public</span>
+          <span class="home">Home</span>
+        </div>
+        <div class="sidebarOption">
+          <span class="public">PUBLIC</span>
+        </div>
+        <div class="sidebarOption">
+          <!--<span class="material-symbols-outlined">public</span>-->
+          <img src="assets/world.jpg.png" alt="public" class="icons">
           <span class="questions"> Questions</span>
         </div>
-        <div class="sidebarOption"><span class="tags">Tags</span></div>
+        <div class="sidebarOption">
+          <span class="tags">Tags</span>
+        </div>
         <div class="sidebarOption sidebarOption__active">
           <span class="users">Users</span>
         </div>
@@ -59,25 +66,28 @@
         </div>
         <div class="sidebarOption">
           <span class="collectives">Collectives</span>
-          <span class="material-symbols-outlined">info</span>
+          <!--<span class="material-symbols-outlined">info</span>-->
+          <img src="assets/info-button.jpg.png" alt="info" class="icons">
         </div>
         <div class="sidebarOption2">
-          <span class="material-symbols-outlined">stars</span>
+          <!--<span class="material-symbols-outlined">stars</span>-->
+          <img src="assets/star.jpg.png" alt="starts" class="icons">
           <span class="expcollective">Explore Collectives</span>
         </div>
         <div class="sidebarOption">
           <span class="teams">Teams</span>
-          <span class="material-symbols-outlined">info</span>
+          <!--<span class="material-symbols-outlined">info</span>-->
+          <img src="assets/info-button.jpg.png" alt="info" class="icons">
         </div>
         <div class="sidebarOption">
-          <span class="material-symbols-outlined">work</span>
+          <!--<span class="material-symbols-outlined">work</span>-->
+          <img src="assets/briefcase.jpg.png" alt="box" class="icons">
           <span class="freeteam">Create free Team</span>
         </div>
         <div class="card">
           <div class="cardBody">
             <p>
-              <b>Stack Overflow for Teams</b> – Start collaborating and sharing
-              organizational knowledge.
+              <b>Stack Overflow for Teams</b> – Start collaborating and sharing organizational knowledge.
             </p>
             <img src="Assets/pic.jpg" alt="pic" />
             <div class="sidebarOption3">
@@ -89,223 +99,221 @@
           </div>
         </div>
       </div>
+      <!--sidebar ends-->
       <!--body starts-->
-      <div class="listHead">
-        <div class="listSetting">
-          <div class="listsettingLeft">
-            <img src="assets/jons.jpg" alt="Logo" />
+      <div id="topContent">
+        <div class="listHead">
+          <div class="listSetting">
+            <div class="listsettingLeft">
+              <img src="assets/jons.jpg" alt="Logo" />
+            </div>
+            <div class="box">
+              <p class="name">Jon Skeet</p>
+              <div class="nameBodyopt">
+                <!--<span class="material-symbols-outlined">cake</span>-->
+                <img src="assets/cake.jpg.png" alt="info" class="icons">
+                <h3 class="cakedes">Member for 13 years</h3>
+                <!--<span class="material-symbols-outlined">schedule</span>-->
+                <img src="assets/time.jpg.png" alt="clock" class="icons">
+                <h3 class="cakedes">Last seen this week</h3>
+              </div>
+              <div class="locBodyopt">
+                <img src="assets/twitter.jpg" alt="Logo" class="twitter" />
+                <img src="assets/hub.jpg" alt="Logo" class="hub" />
+                <img src="assets/chain.jpg" alt="Logo" class="chain" />
+                <h3 class="cakedes">csharpindepth.com</h3>
+                <!--<span class="material-symbols-outlined">location_on</span>-->
+                <img src="assets/pin.jpg.png" alt="loc" class="icons">
+                <h3 class="cakedes">Reading,United Kingdom</h3>
+              </div>
+            </div>
           </div>
-          <div class="box">
-            <h3 class="name">Jon Skeet</h3>
-            <div class="nameBodyopt">
-              <span class="material-symbols-outlined">cake</span>
-              <h3 class="cakedes">Member for 13 years</h3>
-              <span class="material-symbols-outlined">schedule</span>
-              <h3 class="cakedes">Last seen this week</h3>
-           </div>
-           <div class="locBodyopt">
-              <img src="assets/twitter.jpg" alt="Logo" class="twitter" />
-              <img src="assets/hub.jpg" alt="Logo" class="hub" />
-              <img src="assets/chain.jpg" alt="Logo" class="chain" />
-              <h3 class="cakedes">csharpindepth.com</h3>
-              <span class="material-symbols-outlined">location_on</span>
-              <h3 class="cakedes">Reading,United Kingdom</h3>
-           </div>
-         </div>
-       </div>
-        <div class="listSection">
-          <div class="section section__selected">
-            <button class="profile">Profile</button>
-          </div>
-          <div class="section">
-            <button class="about">Activity</button>
-          </div>
-        </div>
-        <h2 style="margin-top:20px">
-          Stats <span class="abspace"></span>About
-        </h2>
-        <div class="statUser">
-          <div class="stats">
-            <span class="numbers"
-              >1,350,175 <span class="space"></span>366.2m
-            </span>
-            <span class="statText"
-              >reputation <span class="space"></span>reached
-            </span>
-            <span class="numbers">35,481 <span class="space"></span>51 </span>
-            <span class="statText"
-              >answers <span class="space"></span>questions
-            </span>
-            <span class="material-symbols-outlined">military_tech</span>
-            <span class="statText">top <b>0.01%</b> overall </span>
-          </div>
-          <div class="aboutUser">
-            <p class="info">
-              Author of
-              <a href="https://www.manning.com/books/c-sharp-in-depth-fourth-edition?a_aid=jonskeet&a_bid=66d590c3">C# in depth</a>.
-            </p>
-            <p class="info">Currently a software engineer at Google, London.</p>
-            <p class="info">Usually a Microsoft MVP (C#, 2003-2010, 2011-)</p>
-            <p class="info"></p>
-            <p class="info">Sites:</p>
-            <p class="info"></p>
-            <ul>
-              <li class="info">
-                <a
-                  href="https://www.manning.com/books/c-sharp-in-depth-fourth-edition?a_aid=jonskeet&a_bid=66d590c3"
-                  >C# in depth</a
-                >
-              </li>
-              <li class="info">
-                <a href="https://codeblog.jonskeet.uk/">Coding blog</a>
-              </li>
-              <li class="info">
-                <a href="http://jonskeet.uk/csharp">C# articles</a>
-              </li>
-              <li class="info">
-                <a href="http://twitter.com/jonskeet"
-                  >Twitter updates(@jonskeet)</a
-                >
-              </li>
-            </ul>
-            <p class="info">
-                Email: skeet@pobox.com (but please read
-                <a href="https://codeblog.jonskeet.uk/2012/08/22/stack-overflow-and-personal-emails/">
-		 my blogpost on Stack Overflow-related emails</a>first
-            </p>
+          <!--list setting end-->
+          <div class="listSection">
+            <div class="section section__selected">
+              <button class="profile">Profile</button>
+            </div>
+            <div class="section">
+              <button class="about">Activity</button>
+            </div>
           </div>
         </div>
-        <br />
-        <h4 class="collect">Collectives</h4>
-        <div class="collective">
-	<div class="googleImage">
-	  <div>
-            <img src="assets/google1.png.jpeg" alt="meta icon" />
-	   </div>
-	   <div>
-             <span class="collective1"> Google Cloude </span> <br />
-             <span class="collective2"> 2021 <b>.Employee</b></span>
-	   </div>
-        </div>
-        <p class="heading">
-          Communities <span class="commspace"></span>Badges
-        </p>
-	<div class="commbadge">
-	  <div class="community">
-            <img src="assets/overflow.jpg" alt="stackicon" />
-            <span class="commopt">Stack Overflow</span> <br />
-            <img src="assets/meta.jpg.png" alt="metaicon" />
-            <span class="commopt">Meta Stack Exchange</span> <br />
-            <img src="assets/sprusr.png" alt="metaicon" />
-            <span class="commopt">super user</span> <br />
-            <img src="assets/srvrfault.png" alt="metaicon" />
-            <span class="commopt">Server fault</span> <br />
-            <img src="assets/softeng.png" alt="metaicon" />
-            <span class="commopt">Software Engineering</span>
-          </div>
-          <div class="badges">
-            <div class="gold">
-              <div class="imgGold">
-                <img src="assets/gbadge.png" alt="goldbadge" />
-                <div class="goldBadges">
-                  <div class="badgeSpace">
-                    <h3>830</h3>
-                    <p>gold badges</p>
-                    <p></p>
+        <!--list head end-->
+        <div class="bodyContent">
+          <div class="sideContent">
+            <div class="statUser">
+              <div>
+                <p class="heading"> Stats </p>
+              </div>
+              <div class="stats">
+                <span class="numbers">1,350,175 <span class="space"></span>366.2m </span>
+                <span class="statText">reputation <span class="space"></span>reached </span>
+                <span class="numbers">35,481 <span class="space"></span>51 </span>
+                <span class="statText">answers <span class="space"></span>questions </span>
+                <!--<span class="material-symbols-outlined">military_tech</span>-->
+                <img src="assets/trophy.jpg.png" alt="trophy" class="icons">
+                <span class="statText">top <b>0.01%</b> overall </span>
+              </div>
+            </div>
+            <!--state user end-->
+            <!--collective starts-->
+            <div class="collectOut">
+              <p class="heading">Collectives</p>
+              <div class="collective">
+                <div class="googleImage">
+                  <div>
+                    <img src="assets/google1.png.jpeg" alt="meta icon" />
+                  </div>
+                  <div>
+                    <span class="collective1"> Google Cloude </span>
+                    <br />
+                    <span class="collective2"> 2021 <b>.Employee</b>
+                    </span>
                   </div>
                 </div>
               </div>
-              <div class="Gbutton1">
-                <button>&#8226; casting</button>
-                <span class="history">Apr 6, 2011</span>
-              </div>
-              <div class="Gbutton1">
-                <button>&#8226; interface</button>
-                <span class="history">Nov 12 ,2011</span>
-              </div>
-              <div class="Gbutton1">
-                <button>&#8226;.net-4.0</button>
-                <span class="history">Jan 22 ,2013</span>
-              </div>
             </div>
-            <div class="gold">
-              <div class="imgGold">
-                <img src="assets/sbadge.png" alt="sbadge" />
-                <div class="goldBadges">
-                  <div class="badgeSpace">
-                    <h3>8969</h3>
-                    <p>silver badges</p>
-                  </div>
+            <!--collective ends-->
+            <!--communitive starts-->
+            <div>
+              <p class="heading"> Communities </p>
+              <div class="commbadge">
+                <div class="community">
+                  <img src="assets/overflow.jpg" alt="stackicon" />
+                  <span class="commopt">Stack Overflow</span>
+                  <br />
+                  <img src="assets/meta.jpg.png" alt="metaicon" />
+                  <span class="commopt">Meta Stack Exchange</span>
+                  <br />
+                  <img src="assets/sprusr.png" alt="metaicon" />
+                  <span class="commopt">super user</span>
+                  <br />
+                  <img src="assets/srvrfault.png" alt="metaicon" />
+                  <span class="commopt">Server fault</span>
+                  <br />
+                  <img src="assets/softeng.png" alt="metaicon" />
+                  <span class="commopt">Software Engineering</span>
                 </div>
               </div>
-              <div class="Gbutton1">
-                <button>&#8226;.net-20</button>
-                <span class="history">Apr 6, 2011</span>
+            </div>
+            <!--communitive ends-->
+          </div>
+          <!--side content end-->
+          <div class="secondSide">
+            <div class="about2">
+              <div>
+                <p class="heading">About</p>
               </div>
-              <div class="Gbutton1">
-                <button>&#8226;coding-style</button>
-                <span class="history">Nov 12 ,2011</span>
-              </div>
-              <div class="Gbutton1">
-                <button>&#8226;overriding</button>
-                <span class="history">Jan 22 ,2013</span>
+              <div class="aboutUser">
+                <p class="info"> Author of <a href="https://www.manning.com/books/c-sharp-in-depth-fourth-edition?a_aid=jonskeet&a_bid=66d590c3">C# in depth</a>. </p>
+                <p class="info">Currently a software engineer at Google, London.</p>
+                <p class="info">Usually a Microsoft MVP (C#, 2003-2010, 2011-)</p>
+                <p class="info"></p>
+                <p class="info">Sites:</p>
+                <p class="info"></p>
+                <ul>
+                  <li class="info">
+                    <a href="https://www.manning.com/books/c-sharp-in-depth-fourth-edition?a_aid=jonskeet&a_bid=66d590c3">C# in depth</a>
+                  </li>
+                  <li class="info">
+                    <a href="https://codeblog.jonskeet.uk/">Coding blog</a>
+                  </li>
+                  <li class="info">
+                    <a href="http://jonskeet.uk/csharp">C# articles</a>
+                  </li>
+                  <li class="info">
+                    <a href="http://twitter.com/jonskeet">Twitter updates(@jonskeet)</a>
+                  </li>
+                </ul>
+                <p class="info"> Email: skeet@pobox.com (but please read <a href="https://codeblog.jonskeet.uk/2012/08/22/stack-overflow-and-personal-emails/"> my blogpost on Stack Overflow-related emails</a>first </p>
               </div>
             </div>
-            <div class="gold">
-              <div class="imgGold">
-                 <img src="assets/bbadge.png" alt="sbadge" />
-                 <div class="goldBadges">
-                  <div class="badgeSpace">
-                    <h3>8969</h3>
-                    <p>bronze badges</p>
+            <!--about end-->
+            <div class="sideBadge">
+             <p class="heading"> Badges</p>
+                <div class="badges">
+                 <div class="gold">
+                    <div class="imgGold">
+                      <img src="assets/gbadge.png" alt="goldbadge" />
+                      <div class="goldBadges">
+                        <div class="badgeSpace">
+                          <h3>830</h3>
+                          <p>gold badges</p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226; casting</button>
+                      <span class="history">Apr 6, 2011</span>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226; interface</button>
+                      <span class="history">Nov 12 ,2011</span>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226;.net-4.0</button>
+                      <span class="history">Jan 22 ,2013</span>
+                    </div>
                   </div>
-               </div>
-             </div>
-             <div class="Gbutton1">
-                <button>&#8226;system.reflection</button>
-                <span class="history">Apr 6, 2011</span>
-              </div>
-              <div class="Gbutton1">
-                <button>&#8226;grecorian-calender</button>
-                <span class="history">Nov 12 ,2011</span>
-              </div>
-              <div class="Gbutton1">
-                <button>&#8226;comparable</button>
-                <span class="history">Jan 22 ,2013</span>
-              </div>
-            </div><!--gold ends-->
-          </div><!--badges ends-->
-        </div><!-- commbadges ends-->
-    </div><!--main body ends-->
-  </div>
-    <!--footer starts-->
-    <div class="footer">
-      <table class="table">
-        <tr>
-          <th><img src="assets/overflow.jpg" alt="stackicon" /></th>
-          <th></th>
-          <th>STACK OVERFLOW</th>
-          <th>PRODUCTS</th>
-          <th>COMPANY</th>
-          <th>STACK EXCHANGE NETWORK</th>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td>Question</td>
-          <td>teams</td>
-          <td>About</td>
-          <td>Technology</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td>Help</td>
-          <td>Advertising</td>
-          <td>Press</td>
-          <td>Culture and Recreation</td>
-        </tr>
-      </table>
+                  <div class="gold">
+                    <div class="imgGold">
+                      <img src="assets/sbadge.png" alt="sbadge" />
+                      <div class="goldBadges">
+                        <div class="badgeSpace">
+                          <h3>8969</h3>
+                          <p>silver badges</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226;.net-20</button>
+                      <span class="history">Apr 6, 2011</span>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226;coding-style</button>
+                      <span class="history">Nov 12 ,2011</span>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226;overriding</button>
+                      <span class="history">Jan 22 ,2013</span>
+                    </div>
+                  </div>
+                  <div class="gold">
+                    <div class="imgGold">
+                      <img src="assets/bbadge.png" alt="sbadge" />
+                      <div class="goldBadges">
+                        <div class="badgeSpace">
+                          <h3>8969</h3>
+                          <p>bronze badges</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226;system.reflection</button>
+                      <span class="history">Apr 6, 2011</span>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226;grecorian-calender</button>
+                      <span class="history">Nov 12 ,2011</span>
+                    </div>
+                    <div class="Gbutton1">
+                      <button>&#8226;comparable</button>
+                      <span class="history">Jan 22 ,2013</span>
+                    </div>
+                  </div>
+                  <!--gold ends-->
+                </div>
+                <!--badges ends-->
+            </div>
+            <!--sideBadge end-->
+          </div>
+          <!--second side end-->
+        </div>
+        <!--body content end-->
+      </div> 
+      <!--top content ends-->
     </div>
+    <!--main body ends-->
   </body>
 </html>
