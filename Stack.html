@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />-->
     <link rel="stylesheet" href="css/style.css" />
     <title>Stackoverflow</title>
   </head>
@@ -25,7 +24,7 @@
         </ul>
       </nav>
       <div class="headerMiddle">
-        <!--<span class="material-symbols-outlined">search</span>-->
+       
         <img src="assets/search.jpg.png" alt="search" class="icons">
         <input type="text" placeholder="user:22656" />
       </div>
@@ -51,7 +50,7 @@
           <span class="public">PUBLIC</span>
         </div>
         <div class="sidebarOption">
-          <!--<span class="material-symbols-outlined">public</span>-->
+         
           <img src="assets/world.jpg.png" alt="public" class="icons">
           <span class="questions"> Questions</span>
         </div>
@@ -66,21 +65,21 @@
         </div>
         <div class="sidebarOption">
           <span class="collectives">Collectives</span>
-          <!--<span class="material-symbols-outlined">info</span>-->
+         
           <img src="assets/info-button.jpg.png" alt="info" class="icons">
         </div>
         <div class="sidebarOption2">
-          <!--<span class="material-symbols-outlined">stars</span>-->
+          
           <img src="assets/star.jpg.png" alt="starts" class="icons">
           <span class="expcollective">Explore Collectives</span>
         </div>
         <div class="sidebarOption">
           <span class="teams">Teams</span>
-          <!--<span class="material-symbols-outlined">info</span>-->
+          
           <img src="assets/info-button.jpg.png" alt="info" class="icons">
         </div>
         <div class="sidebarOption">
-          <!--<span class="material-symbols-outlined">work</span>-->
+          
           <img src="assets/briefcase.jpg.png" alt="box" class="icons">
           <span class="freeteam">Create free Team</span>
         </div>
@@ -110,10 +109,8 @@
             <div class="box">
               <p class="name">Jon Skeet</p>
               <div class="nameBodyopt">
-                <!--<span class="material-symbols-outlined">cake</span>-->
                 <img src="assets/cake.jpg.png" alt="info" class="icons">
                 <h3 class="cakedes">Member for 13 years</h3>
-                <!--<span class="material-symbols-outlined">schedule</span>-->
                 <img src="assets/time.jpg.png" alt="clock" class="icons">
                 <h3 class="cakedes">Last seen this week</h3>
               </div>
@@ -122,10 +119,12 @@
                 <img src="assets/hub.jpg" alt="Logo" class="hub" />
                 <img src="assets/chain.jpg" alt="Logo" class="chain" />
                 <h3 class="cakedes">csharpindepth.com</h3>
-                <!--<span class="material-symbols-outlined">location_on</span>-->
                 <img src="assets/pin.jpg.png" alt="loc" class="icons">
                 <h3 class="cakedes">Reading,United Kingdom</h3>
               </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropButton">Profiles &#9662;</button>
             </div>
           </div>
           <!--list setting end-->
@@ -150,7 +149,7 @@
                 <span class="statText">reputation <span class="space"></span>reached </span>
                 <span class="numbers">35,481 <span class="space"></span>51 </span>
                 <span class="statText">answers <span class="space"></span>questions </span>
-                <!--<span class="material-symbols-outlined">military_tech</span>-->
+                
                 <img src="assets/trophy.jpg.png" alt="trophy" class="icons">
                 <span class="statText">top <b>0.01%</b> overall </span>
               </div>
@@ -175,7 +174,7 @@
             </div>
             <!--collective ends-->
             <!--communitive starts-->
-            <div>
+            <div class="Comm">
               <p class="heading"> Communities </p>
               <div class="commbadge">
                 <div class="community">
@@ -229,6 +228,7 @@
               </div>
             </div>
             <!--about end-->
+            <!--badges start-->
             <div class="sideBadge">
              <p class="heading"> Badges</p>
                 <div class="badges">
@@ -244,15 +244,15 @@
                       </div>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226; casting</button>
+                      <button><span class="dotGold">&#8226;</span> casting</button>
                       <span class="history">Apr 6, 2011</span>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226; interface</button>
+                      <button><span class="dotGold">&#8226;</span> interface</button>
                       <span class="history">Nov 12 ,2011</span>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226;.net-4.0</button>
+                      <button><span class="dotGold">&#8226;</span>.net-4.0</button>
                       <span class="history">Jan 22 ,2013</span>
                     </div>
                   </div>
@@ -267,15 +267,15 @@
                       </div>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226;.net-20</button>
+                      <button><span class="dotSilver">&#8226;</span>.net-20</button>
                       <span class="history">Apr 6, 2011</span>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226;coding-style</button>
+                      <button><span class="dotSilver">&#8226;</span>coding-style</button>
                       <span class="history">Nov 12 ,2011</span>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226;overriding</button>
+                      <button><span class="dotSilver">&#8226;</span>overriding</button>
                       <span class="history">Jan 22 ,2013</span>
                     </div>
                   </div>
@@ -290,15 +290,15 @@
                       </div>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226;system.reflection</button>
+                      <button><span class="dotBronze">&#8226;</span>system.reflection</button>
                       <span class="history">Apr 6, 2011</span>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226;grecorian-calender</button>
+                      <button><span class="dotBronze">&#8226;</span>grecorian-calender</button>
                       <span class="history">Nov 12 ,2011</span>
                     </div>
                     <div class="Gbutton1">
-                      <button>&#8226;comparable</button>
+                      <button><span class="dotBronze">&#8226;</span>comparable</button>
                       <span class="history">Jan 22 ,2013</span>
                     </div>
                   </div>
@@ -307,7 +307,434 @@
                 <!--badges ends-->
             </div>
             <!--sideBadge end-->
-          </div>
+
+            <!--top tags start-->
+            <div class="topTagtable">
+              <div class="topTag">
+                Top tags
+                <span class="topTagSpace">View all tags</span>
+              </div>
+              
+              <!--Top Tag Heading ends-->
+              <table class="topTagTable">
+                <tr>
+                  <td>
+                    <div class="tagStart">
+                      <div class="tag">
+                        <button>C#</button>
+                      </div>
+                      <div class="tagAward">
+                        <span class="dotGold">&#8226;</span> 
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="score">
+                      <span class="tagNumber">256,396</span>
+                      <span class="tagText">score</span>
+                      <span class="tagNumber">19,828</span>
+                      <span class="tagText">posts</span>
+                      <span class="tagNumber">56</span>
+                      <span class="tagText">posts %</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="tagStart">
+                      <div class="tag">
+                        <button>java</button>
+                      </div>
+                      <div class="tagAward">
+                        <span class="dotGold">&#8226;</span> 
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="score">
+                      <span class="tagNumber">154,445</span>
+                      <span class="tagText">score</span>
+                      <span class="tagNumber">10,568</span>
+                      <span class="tagText">posts</span>
+                      <span class="tagNumber">30</span>
+                      <span class="tagText">posts %</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="tagStart">
+                      <div class="tag">
+                        <button>.net</button>
+                      </div>
+                      <div class="tagAward">
+                        <span class="dotGold">&#8226;</span> 
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="score">
+                      <span class="tagNumber">88,960</span>
+                      <span class="tagText">score</span>
+                      <span class="tagNumber">5,609</span>
+                      <span class="tagText">posts</span>
+                      <span class="tagNumber">16</span>
+                      <span class="tagText">posts %</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="tagStart">
+                      <div class="tag">
+                        <button>linq</button>
+                      </div>
+                      <div class="tagAward">
+                        <span class="dotGold">&#8226;</span> 
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="score">
+                      <span class="tagNumber">37,089</span>
+                      <span class="tagText">score</span>
+                      <span class="tagNumber">2,993</span>
+                      <span class="tagText">posts</span>
+                      <span class="tagNumber">8</span>
+                      <span class="tagText">posts %</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="tagStart">
+                      <div class="tag">
+                        <button>string</button>
+                      </div>
+                      <div class="tagAward">
+                        <span class="dotGold">&#8226;</span> 
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="score">
+                      <span class="tagNumber">24,001</span>
+                      <span class="tagText">score</span>
+                      <span class="tagNumber">1,008</span>
+                      <span class="tagText">posts</span>
+                      <span class="tagNumber">3</span>
+                      <span class="tagText">posts %</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="tagStart">
+                      <div class="tag">
+                        <button>generics</button>
+                      </div>
+                      <div class="tagAward">
+                        <span class="dotGold">&#8226;</span> 
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="score">
+                      <span class="tagNumber">21,576</span>
+                      <span class="tagText">score</span>
+                      <span class="tagNumber">1,284</span>
+                      <span class="tagText">posts</span>
+                      <span class="tagNumber">4</span>
+                      <span class="tagText">posts %</span>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--top tags end--> 
+            <!--top post start-->
+            
+            <div class="topPostFlex">
+              <div class="topPost">
+                Top Posts
+                <p>View all <span class="blue">question, answers</span>, and <span class="blue">articles</span></p>
+              </div>
+              <div class="topPostButtonOne">
+                <table class=topPostButtonTableOne>
+                  <tr>
+                    <td class="dark">All</td>
+                    <td>Questions</td>
+                    <td>Answers</td>
+                    <td>Articles</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="topPostButtonTwo">
+                <table class=topPostButtonTableTwo>
+                  <tr>
+                    <td class="dark">Score</td>
+                    <td>Newest</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <!--topPost-->
+            
+              <table class="topPostTable">
+                <!--Table Post Starts -->
+                <tr>
+                  <!--First Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">11672</span>
+                    <span class="questions"> Why is subtracting these two times (in 1927) giving a strange result?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Jul 27, 2011</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Second Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">4644</span>
+                    <span class="questions"> Why is char[] preferred over String for passwords?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Jan 16, 2012</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Third Row-->
+                  <td>
+                    <span class="grey"><img src="assets/greyA.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">3733</span>
+                    <span class="questions"> What is the difference between String and string in C#?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Oct 18, 2008</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Fourth Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">3289</span>
+                    <span class="questions"> How do I call one constructor from another in Java?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Nov 12, 2008</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Fifth Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">3106</span>
+                    <span class="questions"> What are the correct version numbers for C#?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Oct 29, 2008</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Sixth Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenQ.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">2805</span>
+                    <span class="questions"> What are the correct version numbers for C#?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Oct 29, 2008</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Seventh Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">2659</span>
+                    <span class="questions"> How do I break out of nested loops in Java?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">May 20, 2009</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Eighth Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">2511</span>
+                    <span class="questions"> What is a serialVersionUID and why should I use it?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Nov 12, 2008</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Nineth Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">2497</span>
+                    <span class="questions"> Difference between decimal, float and double in .NET?</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Mar 6, 2009</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Tenth Row-->
+                  <td>
+                    <span class="green"><img src="assets/greenA.png"/>
+                  </td>
+                  <td>
+                    <span class="greenNumber">1978</span>
+                    <span class="questions">Group by in LINQ</span>
+                  </td>
+                  <td>
+                    <span class="postDate">Sep 6, 2011</span>
+                  </td>
+                </tr>
+              </table>
+              
+              <!--top meta starts-->
+              <div class="topMetaFlex">
+                <div class="topMetaPost">
+                  Top Meta posts
+                </div>
+                <div class="metaPostImage">
+                  <img src="assets/metaQandA.png" />
+                </div>
+              </div>
+              <table class="topPostTable">
+                <tr>
+                  <!--First Row-->
+                  <td>
+                    <span class="green"><img src="assets/meta2.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">929</span>
+                    <span class="questions"> Congratulations for reaching a million, Gordon Linoff!</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Second Row-->
+                  <td>
+                    <span class="green"><img src="assets/meta2.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">806</span>
+                    <span class="questions">Stack Overflow question checklist</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Third Row-->
+                  <td>
+                    <span class="grey"><img src="assets/meta2.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">463</span>
+                    <span class="questions">Are we being "elitist"? Is there something wrong with that?</span>
+                  </td>
+                <tr>
+                  <!-- Fourth Row-->
+                  <td>
+                    <span class="green"><img src="assets/meta2.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">204</span>
+                    <span class="questions"> What should I do about a user that I'm trying to help and is calling me stupid</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Fifth Row-->
+                  <td>
+                    <span class="green"><img src="assets/meta2.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">168</span>
+                    <span class="questions">Who's the person with more answers than Jon Skeet? When will they catch him in rep terms?</span>
+                  </td>
+                </tr>
+              </table>
+              <!--top network start-->
+              <div class="topNetworkFlex">
+                <div class="topNetworkPost">
+                  Top network posts
+                </div>
+                <div class="networkPostView">
+                  View all network posts
+                </div>
+              </div>
+              <table class="topNetworkTable">
+                <tr>
+                  <!--First Row-->
+                  <td>
+                    <span class="green"><img src="assets/meta.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">929</span>
+                    <span class="questions">Allow an edit to notify downvoters: "I think I've fixed the issue now - please check"</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Second Row-->
+                  <td>
+                    <span class="green"><img src="assets/meta.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">806</span>
+                    <span class="questions">Jon Skeet Facts</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Third Row-->
+                  <td>
+                    <span class="grey"><img src="assets/meta.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">463</span>
+                    <span class="questions">Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</span>
+                  </td>
+                <tr>
+                  <!-- Fourth Row-->
+                  <td>
+                    <span class="green"><img src="assets/servfult.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">204</span>
+                    <span class="questions"> Shell command to monitor changes in a file</span>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Fifth Row-->
+                  <td>
+                    <span class="green"><img src="assets/meta.png"/>
+                  </td>
+                  <td>
+                    <span class="greyNumber">168</span>
+                    <span class="questions">Please show us when we lose an accepted answer</span>
+                  </td>
+                </tr>
+              </table>
+             </div>
           <!--second side end-->
         </div>
         <!--body content end-->
@@ -315,5 +742,61 @@
       <!--top content ends-->
     </div>
     <!--main body ends-->
+    <!--footer starts-->
+    <div class="footer">
+			<div class="footerLogo">
+				<img src="assets/stackImage.png" />
+			</div>
+			<div class="footer1">
+				<h4>STACK OVERFLOW</h4>
+				<p>Questions</p>
+				<p>Help</p>
+			</div>
+			<div class="footer2">
+				<h4>PRODUCTS</h4>
+				<p>Teams</p>
+				<p>Advertising</p>
+				<p>Collectives</p>
+				<p>Talent</p>
+			</div>
+			<div class="footer3">
+				<h4>COMPANY</h4>
+				<p>About</p>
+				<p>Press</p>
+				<p>Work Here</p>
+				<p>Legal</p>
+				<p>Privacy Policy</p>
+				<p>Terms of Service</p>
+				<p>Contact Us</p>
+				<p>Cookie Settings</p>
+				<p>Cookie Policy</p>
+			</div>
+			<div class="footer4">
+				<h4>STACK EXCHANGE NETWORK</h4>
+				<p>Technology</p>
+				<p>Culture & recreation</p>
+				<p>Life & arts</p>
+				<p>Science</p>
+				<p>Professional</p>
+				<p>Business</p>
+				<p></p>
+				<p>API</p>
+				<p>Data</p>
+			</div>
+			<div class="footerSocialAndRights">
+				<div class="footerSocial">
+					<span class="socialSpace">Blog</span>
+					<span class="socialSpace">Facebook</span>
+					<span class="socialSpace">Twitter</span>
+					<span class="socialSpace">LinkedIn</span>
+					<span class="socialSpace">Instagram</span>
+				</div>
+				<div class="footerRights">
+					<p>Site design / logo &#169; 2022 Stack Exchange Inc; user contributions</p>
+					<p>licensed under <u>CC BY-SA.</u> rev 2022.8.26.42925 </p>
+				</div>
+			</div>
+		</div>
+    <!--footer end-->
   </body>
 </html>
