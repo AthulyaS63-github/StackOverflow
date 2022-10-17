@@ -24,6 +24,9 @@
 	border-top: 3px solid orangered;
 	overflow: hidden;
 	padding: 5px;
+	position:fixed;
+	width:100%;
+	top:0;
 }
 
 .headerLeft {
@@ -219,6 +222,7 @@
 .sidebarOption__active {
 	border-right: 3px solid #f48225;
 }
+
 .card {
 	width: 180px;
 	height: 300PX;
@@ -271,6 +275,8 @@
 	width: calc(100% - 164px);
 	background-color: var(--theme-content-background-color);
 	border-radius: 0;
+	margin-top:50px;
+	padding:2px;
 }
 .listHead {
 	padding-left: 15px;
