@@ -608,45 +608,9 @@ body {
 	padding-bottom: 2px;
 	margin-left: 580px;
 }
-
-.heading3 {
+.rightComm{
 	color: #818181;
 	font-size: 12px;
-	margin-left: 60px;
-	padding-right: 0px;
-	margin-right: 0px;
-}
-
-.heading4 {
-	color: #818181;
-	font-size: 12px;
-	margin-left: 23px;
-	padding-right: 0px;
-	margin-right: 0px;
-}
-
-.heading5 {
-	color: #818181;
-	font-size: 12px;
-	margin-left: 90px;
-	padding-right: 0px;
-	margin-right: 0px;
-}
-
-.heading6 {
-	color: #818181;
-	font-size: 12px;
-	margin-left: 80px;
-	padding-right: 0px;
-	margin-right: 0px;
-}
-
-.heading7 {
-	color: #818181;
-	font-size: 12px;
-	margin-left: 21px;
-	padding-right: 0px;
-	margin-right: 0px;
 }
 
 .community {
@@ -654,7 +618,7 @@ body {
 }
 
 .community img {
-	height: 24px;
+	width: 24px;
 	cursor: pointer;
 }
 
@@ -759,7 +723,9 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 }
-
+Gbutton1{
+	padding:5px 0px;
+}
 .Gbutton1 button:hover {
 	color: black;
 	background-color: #CFD8DC;
@@ -793,7 +759,6 @@ body {
 	padding-top: 30px;
 	font-size: 15px;
 }
-/*top table start*/ 
 .topTagtable {
 	margin-left: 0px;
 }
@@ -979,7 +944,6 @@ body {
 	font-size: 13px;
 }
 
-/*top meta*/
 
 .topMetaFlex {
 	display: flex;
@@ -995,7 +959,7 @@ body {
 .metaPostImage img {
 	width: 75px;
 }
-/*top network*/
+
 .topNetworkFlex {
 	display: flex;
 	justify-content: space-between;
