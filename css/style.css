@@ -138,7 +138,6 @@
 	overflow-y: scroll;
 	margin-bottom: var(--su8);
 }
-
 .sidebarOption {
 	display: flex;
 	align-items: center;
@@ -149,7 +148,6 @@
 	color: #818181;
 	font-size: 15px;
 }
-
 .sidebarOption2 {
 	display: flex;
 	align-items: center;
@@ -160,20 +158,17 @@
 	cursor: pointer;
 	color: #818181;
 }
-
 .sidebarOption .material-symbols-outlined {
 	padding: 5px;
 	padding-left: 0;
 	font-size: 20px;
 }
-
 .sidebarOption2 .material-symbols-outlined {
 	padding: 5px;
 	padding-left: 0;
 	font-size: 20px;
 	color: orange;
 }
-
 .sidebarOption:hover .material-icons,
 .sidebarOption__active,
 .sidebarOption__active .material-icons {
@@ -181,19 +176,15 @@
 	color: black;
 	font-weight: 800;
 }
-
 .sidebarOption:hover {
 	color: black;
 }
-
 .home {
 	padding-top: 30px;
 }
-
 .public {
 	padding-top: 25px;
 }
-
 .questions1,
 .collectives, 
 .expcollectives,
@@ -259,7 +250,6 @@
 	font-size: 12px;
 	color: white;
 }
-
 .sidebarOption4 {
 	align-items: center;
 	height: 35px;
@@ -338,7 +328,6 @@ body {
 	color: grey;
 	margin-top: 5px;
 }
-
 .locBodyopt {
 	display: flex;
 	align-items: center;
@@ -416,7 +405,6 @@ body {
 	cursor: pointer;
 	box-shadow: 0px 2px 2px 2px;
 }
-
 .dropButton {
 	background-color: transparent;
 	color: rgba(129, 129, 129, 0.8);
@@ -488,7 +476,6 @@ body {
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
-
 .collectOut {
 	margin-top: 12px;
 	padding-left: 12px;
@@ -510,7 +497,6 @@ body {
 	margin-left: 10px;
 	margin-top: 5px;
 }
-
 .statText {
 	
 	height: 40px;
@@ -591,7 +577,6 @@ body {
 	padding-bottom: 5px;
 }
 
-
 .heading2 {
 	color: #818181;
 	font-size: 12px;
@@ -670,13 +655,11 @@ body {
 .sideBadgeTable {
 	margin-top: 50px;
 }
-
 .sideBadge {
 	margin-top: 12px;
 	padding: 12px;
 	margin-left: 0px;
 }
-
 .gold {
 	width: 240px;
 	padding-right: 5px;
