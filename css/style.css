@@ -101,7 +101,7 @@
 }
 
 .log button {
-	padding: 5px;
+	padding:5px;
 	cursor: pointer;
 	width: 80px;
 	color: blue;
@@ -116,12 +116,11 @@
 	background-color: #99CCFF;
 	color: black;
 }
-
 .sign button {
 	width: 80px;
 	color: white;
 	background-color: rgb(26, 209, 255);
-	padding: 5px;
+	padding:5px;
 	cursor: pointer;
 	border-radius: 5px;
 	border-color: #99CCFF;
