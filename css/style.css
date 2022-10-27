@@ -151,16 +151,7 @@
 	color: #818181;
 	font-size: 15px;
 }
-.sidebarOption2 {
-	display: flex;
-	align-items: center;
-	padding: 0 10px;
-	font-size: 15px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	cursor: pointer;
-	color: #818181;
-}
+
 .sidebarOption .material-symbols-outlined {
 	padding: 5px;
 	padding-left: 0;
