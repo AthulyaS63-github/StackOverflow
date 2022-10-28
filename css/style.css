@@ -12,16 +12,19 @@ body {
 }
 .flex{
 	display:flex;
+}
+.flexBet{
+	display:flex;
 	justify-content:space-between;
+}
+.flexCenter{
+	display: flex;
+	align-items: center;
 }
 .icons {
 	width: 20px;
 }
-
 .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	border-bottom: 1px solid whitesmoke;
 	background-color: ghostwhite;
 	border-top: 3px solid orangered;
@@ -31,25 +34,15 @@ body {
 	width:100%;
 	top:0;
 }
-
-.headerLeft {
-	display: flex;
-	align-items: center;
-}
-
 .headerLeft span {
 	padding: 10px;
 	cursor: pointer;
 }
-
 .headerLeft img {
 	margin-left: 30px;
 }
-
 .headerMiddle {
-	display: flex;
 	flex: 0.7;
-	align-items: center;
 	background-color: white;
 	padding: 2px;
 	border-radius: 3px;
@@ -64,7 +57,6 @@ body {
 	outline: none;
 	border-radius: 30px;
 	background-color:#FFFFFF;
-	
 }
 .navOption:hover {
 	color: black;
@@ -74,7 +66,6 @@ body {
 	box-shadow: 0px 2px 2px -2px;
 	border-width: 20px;
 }
-
 .headerMiddle input {
 	border: none;
 	width: 100%;
@@ -83,9 +74,7 @@ body {
 	font-size: medium;
 	background-color: transparent;
 }
-
 .headerRight {
-	display: flex;
 	padding-right: 20px;
 	margin-left: 0px;
 }
@@ -94,18 +83,6 @@ body {
 	padding: 10px;
 	cursor: pointer;
 }
-
-.option {
-	display: flex;
-	align-items: center;
-	height: 40px;
-	padding: 0 10px;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	cursor: pointer;
-	color: #773838;
-}
-
 .log button {
 	padding:5px;
 	cursor: pointer;
@@ -145,11 +122,7 @@ body {
 	margin-bottom: var(--su8);
 }
 .sidebarOption {
-	display: flex;
-	align-items: center;
-	padding: 0 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding:10px;
 	cursor: pointer;
 	color: #818181;
 	font-size: 15px;
@@ -183,11 +156,6 @@ body {
 .companies {
 	padding-left: 25px;
 }
-
-.bodyContent {
-	display: flex;
-}
-
 .collectives {
 	padding-right: 58px;
 }
@@ -195,15 +163,12 @@ body {
 .teams {
 	padding-right: 80px;
 }
-
 .expcollective {
 	padding-top: 5px;
 }
-
 .sidebarOption__active {
 	border-right: 3px solid #f48225;
 }
-
 .card {
 	width: 180px;
 	height: 300PX;
@@ -212,7 +177,6 @@ body {
 	margin-top: 0px;
 	margin-left: 5px;
 }
-
 .cardBody {
 	padding: 10px;
 }
@@ -224,29 +188,24 @@ body {
 }
 
 .sidebarOption3 {
-	align-items: center;
 	padding:10px;
 	margin-top: 0px;
 	cursor: pointer;
-	display: flex;
 	background-color: orangered;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: white;
 }
 .sidebarOption4 {
-	align-items: center;
 	padding: 10px;
 	margin-top: 0px;
 	margin-left: 5px;
 	cursor: pointer;
-	display: flex;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	color: black;
 }
 .mainBody {
-	display: flex;
 	padding-left: 5px;
 }
 #topContent {
@@ -262,7 +221,6 @@ body {
 }
 .listSetting {
 	top: 0;
-	display: flex;
 	border-bottom: 1px whitesmoke;
 	background-color: white;
 	z-index: 999;
@@ -298,17 +256,11 @@ body {
 	margin-top: 8px;
 }
 .nameBodyopt {
-	display: flex;
-	align-items: center;
 	cursor: pointer;
 	color: grey;
 	margin-top: 5px;
 }
 .locBodyopt {
-	display: flex;
-	align-items: center;
-	height: 40px;
-	padding-top: 0px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	cursor: pointer;
@@ -317,40 +269,12 @@ body {
 }
 .twitter {
 	width: 20px;
-	height: 20px;
 	margin-top: 10px;
 	margin-left: 5px;
 }
-.hub {
-	width: 16px;
-	height: 16px;
-	margin-top: 10px;
-	margin-left: 5px;
-}
-.chain {
-	width: 16px;
-	height: 16px;
-	margin-top: 10px;
-	margin-left: 4px;
-}
-
 .communities {
 	margin-top: 20px;
 }
-
-.meta {
-	height: 24px;
-}
-
-.section {
-	display: flex;
-	cursor: pointer;
-}
-
-.listSection {
-	display: flex;
-}
-
 .profile {
 	margin-left: 10px;
 	text-transform: capitalize;
@@ -362,14 +286,11 @@ body {
 	outline: none;
 	border: none;
 }
-
 .profile h3 {
 	font-size: small;
 	font-weight: 400;
 }
-
 .profile:hover {
-	
 	text-transform: capitalize;
 	font-weight: 300;
 	color: rgb(247, 244, 244);
@@ -388,21 +309,17 @@ body {
 	border-radius: 3px;
 	margin-top: 10px;
 }
-
 .dropdown {
 	display: inline-block;
 	margin-right: 0px;
 	padding-right: 0px;
 }
-
 .dropdown:hover .dropButton {
 	background-color: #e3e6e8;
 }
-
 .sideContent {
 	width: 300px;
 }
-
 .about2 {
 	padding-top: 10px;
 	padding-left: 15px;
@@ -434,13 +351,11 @@ body {
 	border: none;
 	box-shadow: 0px 2px 2px -2px;
 }
-
 .statUser {
 	padding-left: 5px;
 	margin-left: 10px;
 	margin-top: 10px;
 }
-
 .stats {
 	width: 250px;
 	margin-right: 480px;
@@ -459,8 +374,6 @@ body {
 }
 
 .numbers {
-	display: flex;
-	align-items: center;
 	padding:10px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -495,39 +408,31 @@ body {
 	margin-right: 50px;
 	padding-left: 10px;
 }
-
 .commopt {
 	color: #0063bf;
 	font-weight: 15;
 	cursor: pointer;
 	font-size: 13px;
 }
-
 .commopt:hover {
 	color: #4db8ff;
 }
-
 .abspace {
 	padding-right: 250px;
 }
-
 .a:link {
 	color: #0063bf;
 	text-decoration: underline;
 }
-
 .a:visited {
 	color: #0063bf;
 }
-
 .info {
 	padding-top: 10px;
 }
-
 .li {
 	padding-top: 10px;
 }
-
 .heading {
 	margin-top: 15px;
 	font-size: 22px;
@@ -542,7 +447,6 @@ body {
 	font-size: 22px;
 	padding-bottom: 5px;
 }
-
 .heading2 {
 	color: #818181;
 	font-size: 12px;
@@ -550,7 +454,6 @@ body {
 	padding-bottom: 2px;
 	margin-left: 35px;
 }
-
 .headingBadge {
 	color: #818181;
 	font-size: 12px;
@@ -562,22 +465,12 @@ body {
 	color: #818181;
 	font-size: 12px;
 }
-
 .community {
 	padding: 12px;
 }
-
 .community img {
 	width: 24px;
 	cursor: pointer;
-}
-
-.googleImage {
-	display: flex;
-}
-
-.badges {
-	display: flex;
 }
 .collective {
 	top: 5px;
@@ -630,12 +523,6 @@ body {
 .goldBadges {
 	margin-left: 15px;
 }
-.imgGold {
-	display: flex;
-}
-.gold1 {
-	display: flex;
-}
 .dotGold {
 	font-size: 18px;
 	color: #FFD700;
@@ -671,9 +558,6 @@ body {
 	padding-right: 0px;
 	font-size: 12px;
 	margin-left: auto;
-}
-.commbadge {
-	display: flex;
 }
 .commspace {
 	padding-right: 180px;
@@ -749,11 +633,6 @@ body {
 .blue {
 	color: #0074cc;
 }
-
-.topPostFlex {
-	display: flex;
-}
-
 .topPostButtonTableOne {
 	border-collapse: collapse;
 	width: 195px;
@@ -770,7 +649,6 @@ body {
 	padding: 5px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 }
-
 .topPostButtonTableTwo {
 	border-collapse: collapse;
 	width: 95px;
@@ -782,7 +660,6 @@ body {
 	font-size: 11px;
 	color: #6a737c;
 }
-
 .topPostButtonTableTwo td {
 	padding: 5px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
@@ -817,7 +694,6 @@ body {
 	margin-right: 10px;
 	margin-bottom: 15px;
 }
-
 .greyNumber {
 	border: 1px solid rgba(129, 129, 129, 0.4);
 	border-radius: 4px;
@@ -828,7 +704,6 @@ body {
 	margin-right: 10px;
 	margin-bottom: 15px;
 }
-
 .topPostTable {
 	border-collapse: collapse;
 	width: 800px;
@@ -838,13 +713,11 @@ body {
 	margin-top: 5px;
 	margin-left: 0px;
 }
-
 .topPostTable td {
 	padding: 5px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
-
 .questionsSide {
 	color: #397bc9;
 	font-size: 15px;
@@ -893,7 +766,6 @@ body {
 	margin-top: 5px;
 	margin-bottom: 20px;
 }
-
 .topNetworkTable td {
 	padding: 5px;
 	padding-bottom: 10px;
@@ -910,7 +782,6 @@ body {
 	width: 35px;
 	padding-left: 15px;
 }
-
 .footer h4 {
 	color: #babfc4;
 	font-weight: 780;
