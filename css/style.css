@@ -7,6 +7,9 @@
 	margin-left: 5px;
 	width: 150px;
 }
+body {
+	font-family: apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
 .flex{
 	display:flex;
 	justify-content:space-between;
@@ -175,7 +178,6 @@
 	padding-top: 5px;
 	padding-right: 2px;
 }
-
 .tags,
 .users,
 .companies {
@@ -223,8 +225,7 @@
 
 .sidebarOption3 {
 	align-items: center;
-	height: 35px;
-	padding: 0 16px;
+	padding:10px;
 	margin-top: 0px;
 	cursor: pointer;
 	display: flex;
@@ -235,8 +236,7 @@
 }
 .sidebarOption4 {
 	align-items: center;
-	height: 35px;
-	padding: 0 16px;
+	padding: 10px;
 	margin-top: 0px;
 	margin-left: 5px;
 	cursor: pointer;
@@ -260,10 +260,6 @@
 .listHead {
 	padding-left: 15px;
 }
-body {
-	font-family: apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
-}
-
 .listSetting {
 	top: 0;
 	display: flex;
@@ -273,7 +269,6 @@ body {
 	padding: 8px;
 	cursor: pointer;
 }
-
 .listsettingLeft {
 	box-shadow: 1px 0px 5px -1px rgb(220, 225, 228);
 }
@@ -282,20 +277,17 @@ body {
 	width: 140px;
 	height: 140px;
 }
-
 .box {
 	width: 400px;
 	padding-right: 100px;
 	margin-right: auto;
 	padding-left: 10px;
 }
-
 .name {
 	margin-top: 15px;
 	padding-right: 100px;
 	font-size: xx-large;
 }
-
 .cakedes {
 	font-size: 12px;
 	font-weight: 400;
@@ -305,7 +297,6 @@ body {
 	margin-right: 10px;
 	margin-top: 8px;
 }
-
 .nameBodyopt {
 	display: flex;
 	align-items: center;
@@ -324,21 +315,18 @@ body {
 	color: grey;
 	margin-top: 0px;
 }
-
 .twitter {
 	width: 20px;
 	height: 20px;
 	margin-top: 10px;
 	margin-left: 5px;
 }
-
 .hub {
 	width: 16px;
 	height: 16px;
 	margin-top: 10px;
 	margin-left: 5px;
 }
-
 .chain {
 	width: 16px;
 	height: 16px;
@@ -473,9 +461,7 @@ body {
 .numbers {
 	display: flex;
 	align-items: center;
-	height: 40px;
-	padding: 0 5px;
-	padding-left: 10px;
+	padding:10px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	cursor: pointer;
@@ -483,20 +469,15 @@ body {
 	margin-top: 5px;
 }
 .statText {
-	
-	height: 40px;
-	padding: 5px 5px;
+	padding:5px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	cursor: pointer;
-	margin-left: 10px;
-	margin-top: -15px;
+	margin: 10px;
 }
-
 .space {
 	padding-right: 40px;
 }
-
 .Comm {
 	padding-left: 10px;
 	margin-top: 5px;
@@ -598,7 +579,6 @@ body {
 .badges {
 	display: flex;
 }
-
 .collective {
 	top: 5px;
 	width: 200px;
@@ -607,17 +587,14 @@ body {
 	border: 1px solid rgba(128,128,128,0.2);
 	border-radius: 5px;
 }
-
 .collect {
 	margin-bottom: 2px;
 	font-size: 25px;
 }
-
 .collective img {
 	width: 50px;
 	cursor: pointer;
 }
-
 .collective1 {
 	margin-top: 2px;
 }
@@ -625,13 +602,11 @@ body {
 .collective2 {
 	margin-left: 50px;
 }
-
 .gold img {
 	width: 50px;
 	height: 50px;
 	padding-left: 10px;
 }
-
 .gold h3 {
 	padding-top: 10px;
 	font-size: 12px;
@@ -652,34 +627,27 @@ body {
 	border-radius: 5px;
 	margin-right: 10px;
 }
-
 .goldBadges {
 	margin-left: 15px;
 }
-
 .imgGold {
 	display: flex;
 }
-
 .gold1 {
 	display: flex;
 }
-
 .dotGold {
 	font-size: 18px;
 	color: #FFD700;
 }
-
 .dotSilver {
 	font-size: 18px;
 	color: #c0c0c0;
 }
-
 .dotBronze {
 	font-size: 18px;
 	color: #d1a684;
 }
-
 .gold button {
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -690,38 +658,29 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 }
-Gbutton1{
-	padding:5px 0px;
-}
 .Gbutton1 button:hover {
 	color: black;
 	background-color: #CFD8DC;
 }
-
 .Gbutton2 {
 	margin-left: 0px;
 	padding-right: 0px;
 }
-
 .history {
 	margin-right: 0px;
 	padding-right: 0px;
 	font-size: 12px;
 	margin-left: auto;
 }
-
 .commbadge {
 	display: flex;
 }
-
 .commspace {
 	padding-right: 180px;
 }
-
 .badgeSpace {
 	padding-right: 10px;
 }
-
 .badgedet {
 	padding-top: 30px;
 	font-size: 15px;
@@ -729,21 +688,17 @@ Gbutton1{
 .topTagtable {
 	margin-left: 0px;
 }
-
 .tagStart {
 	display: flex;
 }
-
 .topTag {
 	font-size: 21px;
 }
-
 .topTagSpace {
 	padding-left: 590px;
 	color: #818181;
 	font-size: 12px;
 }
-
 .topTagTable {
 	border-collapse: collapse;
 	width: 780px;
@@ -754,12 +709,10 @@ Gbutton1{
 	margin-left: 263px;
 	margin-left: 0px;
 }
-
 .topTagTable td {
 	padding: 5px;
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
-
 .score {
 	text-align: right;
 }
@@ -767,7 +720,6 @@ Gbutton1{
 .tag {
 	margin: 5px;
 }
-
 .tag button {
 	color: #2c5ca2;
 	background-color: #e1ecf4;
@@ -775,17 +727,14 @@ Gbutton1{
 	border-radius: 3px;
 	padding: 4px 5px;
 }
-
 .tag button:hover {
 	background-color: #d0e3f1;
 }
-
 .tagText {
 	color: #6a737c;
 	font-size: 13px;
 	padding-right: 10px;
 }
-
 .topPost {
 	padding-top: 20px;
 	padding-bottom: 5px;
@@ -910,14 +859,9 @@ Gbutton1{
 	color: #6a737c;
 	font-size: 13px;
 }
-
-
-.topMetaFlex {
-	display: flex;
-	justify-content: space-between;
+.topMeta {
 	padding-top: 15px;
 }
-
 .topMetaPost {
 	padding-bottom: 5px;
 	font-size: 21px;
@@ -926,10 +870,7 @@ Gbutton1{
 .metaPostImage img {
 	width: 75px;
 }
-
-.topNetworkFlex {
-	display: flex;
-	justify-content: space-between;
+.topNetWork{
 	padding-top: 20px;
 	padding-bottom: 5px;
 }
@@ -959,8 +900,6 @@ Gbutton1{
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
 .footer {
-	display: flex;
-	justify-content: space-between;
 	padding: 20px;
 	background-color: #232629;
 	color: #babfc4;
