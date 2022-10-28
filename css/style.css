@@ -151,18 +151,6 @@
 	color: #818181;
 	font-size: 15px;
 }
-
-.sidebarOption .material-symbols-outlined {
-	padding: 5px;
-	padding-left: 0;
-	font-size: 20px;
-}
-.sidebarOption2 .material-symbols-outlined {
-	padding: 5px;
-	padding-left: 0;
-	font-size: 20px;
-	color: orange;
-}
 .sidebarOption:hover .material-icons,
 .sidebarOption__active,
 .sidebarOption__active .material-icons {
