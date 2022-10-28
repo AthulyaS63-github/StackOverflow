@@ -1,4 +1,4 @@
-* {
+*{
 	margin: 0;
 }
 .headerLeft img {
@@ -430,9 +430,6 @@ body {
 .info {
 	padding-top: 10px;
 }
-.li {
-	padding-top: 10px;
-}
 .heading {
 	margin-top: 15px;
 	font-size: 22px;
@@ -491,7 +488,6 @@ body {
 .collective1 {
 	margin-top: 2px;
 }
-
 .collective2 {
 	margin-left: 50px;
 }
@@ -504,7 +500,6 @@ body {
 	padding-top: 10px;
 	font-size: 12px;
 }
-
 .sideBadgeTable {
 	margin-top: 50px;
 }
@@ -572,9 +567,6 @@ body {
 .topTagtable {
 	margin-left: 0px;
 }
-.tagStart {
-	display: flex;
-}
 .topTag {
 	font-size: 21px;
 }
@@ -590,8 +582,6 @@ body {
 	border-radius: 4px;
 	z-index: 10;
 	margin-top: 5px;
-	margin-left: 263px;
-	margin-left: 0px;
 }
 .topTagTable td {
 	padding: 5px;
@@ -600,7 +590,6 @@ body {
 .score {
 	text-align: right;
 }
-
 .tag {
 	margin: 5px;
 }
@@ -625,7 +614,6 @@ body {
 	font-size: 21px;
 	width: 350px;
 }
-
 .topPost p {
 	font-size: 13px;
 }
@@ -644,7 +632,6 @@ body {
 	font-size: 11px;
 	color: #6a737c;
 }
-
 .topPostButtonTableOne td {
 	padding: 5px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
@@ -664,26 +651,20 @@ body {
 	padding: 5px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 }
-
 .dark {
 	background-color: #e3e6e8;
 	color: black;
 }
-
 .green img {
 	width: 20px;
-	padding: 5px;
 	padding-top: 10px;
 	padding-bottom: 3px;
 }
-
 .grey img {
 	width: 20px;
-	padding: 5px;
 	padding-top: 10px;
 	padding-bottom: 3px;
 }
-
 .greenNumber {
 	border: hidden;
 	border-radius: 4px;
@@ -715,7 +696,6 @@ body {
 }
 .topPostTable td {
 	padding: 5px;
-	padding-bottom: 10px;
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
 .questionsSide {
@@ -733,7 +713,7 @@ body {
 	font-size: 13px;
 }
 .topMeta {
-	padding-top: 15px;
+	margin-top: 12px;
 }
 .topMetaPost {
 	padding-bottom: 5px;
@@ -751,12 +731,10 @@ body {
 .topNetworkPost {
 	font-size: 21px;
 }
-
 .networkPostView {
 	color: #818181;
 	font-size: 12px;
 }
-
 .topNetworkTable {
 	border-collapse: collapse;
 	width: 800px;
