@@ -1,5 +1,6 @@
 *{
 	margin: 0;
+	padding:0;
 }
 .headerLeft img {
 	object-fit: contain;
@@ -419,6 +420,10 @@ body {
 }
 .abspace {
 	padding-right: 250px;
+}
+.aboutList{
+	padding:2px;
+	margin-left:35px;
 }
 .a:link {
 	color: #0063bf;
